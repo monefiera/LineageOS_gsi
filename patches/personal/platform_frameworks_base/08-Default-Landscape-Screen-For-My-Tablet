@@ -1,0 +1,19 @@
+From 05ac45a37799322ddb9774326359a3414fb7f8d8 Mon Sep 17 00:00:00 2001
+From: MONE-FIERA <FieraRacing@protonmail.com>
+Date: Thu, 31 Dec 2024 22:20:54 +0200
+Subject: [PATCH 12/31] Default Landscape Screen For-My Tablet
+
+Change-Id: Iea5d24f977928bf01cd2a46b98c75c0a4bd6a23a
+---
+ packages/SettingsProvider/res/values/defaults.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/packages/SettingsProvider/res/values/defaults.xml b/packages/SettingsProvider/res/values/defaults.xml
+index 8e6e251ff3f2..53324ba4d966 100644
+--- a/packages/SettingsProvider/res/values/defaults.xml
++++ b/packages/SettingsProvider/res/values/defaults.xml
+@@ -36,7 +36,7 @@
+-    <integer name="def_user_rotation">0</integer>
++    <integer name="def_user_rotation">1</integer>
+-- 
+2.25.1
